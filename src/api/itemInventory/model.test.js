@@ -26,6 +26,7 @@ describe('view', () => {
     expect(view.item).toBe(itemInventory.item)
     expect(view.description).toBe(itemInventory.description)
     expect(view.price).toBe(itemInventory.price)
+    
     expect(view.discount).toBe(itemInventory.discount)
     expect(view.createdAt).toBeTruthy()
     expect(view.updatedAt).toBeTruthy()
